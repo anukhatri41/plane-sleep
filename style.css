@@ -110,3 +110,7 @@ a {
   a:hover, a:active, a:focus {
     color: grey;
   }
+
+center {
+    font-family: Optima, "Trebuchet MS", sans-serif;
+}
