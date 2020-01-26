@@ -1,18 +1,77 @@
 .background{
-    background:url("https://purewows3.imgix.net/images/articles/2017_06/Laguna-Beach-sunset.jpg?auto=format,compress&cs=strip");
-    background-repeat: no-repeat;
+    background:url(http://getwallpapers.com/wallpaper/full/f/e/5/944533-free-download-soothing-background-1920x1080-for-retina.jpg);
 }
 .header {
     padding: 60px;
     text-align: center;
-<<<<<<< HEAD
     /* background: #1abc9c; */
-    color: black;
-    font-size: 30px;
-  }
-=======
-    background: #1abc9c;
     color: white;
     font-size: 30px;
   }
->>>>>>> 7863b2d56283a5d54076531b1ac3d592a8401988
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+
+  /* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  }
+  /* Responsive Screen */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  /* Page Content */
+.content {
+    padding:20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+}
